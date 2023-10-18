@@ -31,3 +31,7 @@ Commands used
 3. rails g controller home index >>> creates a controller home with index.html
 
 4. rails new <project_name> >>> creates a project with the given name
+
+5. rails g scaffold friends first_name:string last_name:string email:string phone:string twitter:string
+
+6. rails db:migrate
