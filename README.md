@@ -31,6 +31,3 @@ Commands used
 3. rails g controller home index >>> creates a controller home with index.html
 
 4. rails new <project_name> >>> creates a project with the given name
-git remote add origin https://github.com/shubhamgitzone/friendsApp.git
-git branch -M main
-git push -u origin main
