@@ -1,5 +1,3 @@
-<p style="color: green"><%= notice %></p>
-
 <table class="table table-striped table-bordered table-hover">
   <thead class="thead-dark">
     <tr>
@@ -14,7 +12,7 @@
   <% @friends.each do |friend| %>
   <tr>
     <td>
-      <%= link_to friend.first_name + ' ' + friend.last_name, friend %>
+      <%= link_to friend.first_name + ' ' + friend.last_name %>
     </td>
     <td><%= link_to friend.email %></td>
     <td><%= link_to friend.phone %></td>
